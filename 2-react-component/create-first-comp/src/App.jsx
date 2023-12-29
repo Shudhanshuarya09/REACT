@@ -12,6 +12,7 @@ function App() {
   return (
     <>
       <h1>Lets start</h1>
+      <Button />
       <Hello />
       <Random />
     </>
