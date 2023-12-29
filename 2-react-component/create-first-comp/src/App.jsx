@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Button from "./Button";
 import Hello from "../Hello";
+import Random from "../Random";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,6 +13,7 @@ function App() {
     <>
       <h1>Lets start</h1>
       <Hello />
+      <Random />
     </>
   );
 }
