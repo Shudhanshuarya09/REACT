@@ -17,6 +17,34 @@ function App() {
           </div>
         </div>
       </div>
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-6">
+            Buy Milk
+          </div>
+          <div class="col-4">
+            5/12/2023
+          </div>
+          <div class="col-2">
+          <button type="button" class="btn btn-danger">Danger</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-6">
+            Go to college
+          </div>
+          <div class="col-4">
+            5/12/2023
+          </div>
+          <div class="col-2">
+          <button type="button" class="btn btn-danger">Danger</button>
+          </div>
+        </div>
+      </div>
     </center>
   );
 }
