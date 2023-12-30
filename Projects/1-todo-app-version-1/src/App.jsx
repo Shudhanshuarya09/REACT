@@ -1,12 +1,20 @@
 function App() {
   return (
     <center class="todo-container">
-      Todo App
+      <h1>Todo App</h1>
       <div class="container text-center">
         <div class="row">
-          <div class="col-6">col-4</div>
-          <div class="col-4">col-4</div>
-          <div class="col-2">col-8</div>
+          <div class="col-6">
+            <input type="text" placeholder="Todo Here" />
+          </div>
+          <div class="col-4">
+            <input type="date" />
+          </div>
+          <div class="col-2">
+            <button type="button" class="btn btn-success">
+              Add
+            </button>
+          </div>
         </div>
       </div>
     </center>
