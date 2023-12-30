@@ -1,7 +1,8 @@
+import AppName from "./Components/AppName";
 function App() {
   return (
     <center class="todo-container">
-      <h1>Todo App</h1>
+      <AppName/>
       <div class="container text-center">
         <div class="row">
           <div class="col-6">
@@ -27,7 +28,7 @@ function App() {
             5/12/2023
           </div>
           <div class="col-2">
-          <button type="button" class="btn btn-danger">Danger</button>
+          <button type="button" class="btn btn-danger">Delete</button>
           </div>
         </div>
       </div>
@@ -41,7 +42,7 @@ function App() {
             5/12/2023
           </div>
           <div class="col-2">
-          <button type="button" class="btn btn-danger">Danger</button>
+          <button type="button" class="btn btn-danger">Delete</button>
           </div>
         </div>
       </div>
