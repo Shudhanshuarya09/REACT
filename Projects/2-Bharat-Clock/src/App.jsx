@@ -1,12 +1,12 @@
-import Heading from "./Components/Heading"
-import
+import Heading from "./Components/Heading";
+import Slogan from "./Components/Slogan";
 function App() {
  
 
   return <div>
     <Heading/>
     <Slogan/>
-    <CurrentTime/>
+    {/* <CurrentTime/> */}
 
   </div>
 }
