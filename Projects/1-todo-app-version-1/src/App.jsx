@@ -11,8 +11,9 @@ function App() {
   return (
     <center class="todo container" >
       <AppName />
-      <AddTodo />
+      
       <div className="items-container">
+      <AddTodo />
       <TodoItem1 />
       <TodoItem2 />
       </div>
