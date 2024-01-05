@@ -1,15 +1,17 @@
 import Heading from "./Components/Heading";
 import Slogan from "./Components/Slogan";
 import CurrentTime from "./Components/CurrentTime";
+
+
 function App() {
  
 
-  return <div>
+  return <center>
     <Heading/>
     <Slogan/>
     <CurrentTime/>
 
-  </div>
+  </center>;
 }
 
-export default App
+export default App;
