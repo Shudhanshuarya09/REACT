@@ -1,4 +1,4 @@
 function Slogan(){
-  return <p>This is the clock that shows the times in Bharat all times</p>
+  return <p className="lead">This is the clock that shows the times in Bharat all times</p>
 };
 export default Slogan;
