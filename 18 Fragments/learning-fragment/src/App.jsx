@@ -27,12 +27,12 @@ import "./App.css";
 
 function App() {
 
-  let foodItems = ["CHICKEN","EGG","FISH","BUTTER","SPINACH","PULSES","PANEER","GREEN VEGETABLES"]
+  let foodItems = ["CHICKEN","EGG","FISH","BUTTER","SPINACH","PULSES","PANEER","GREEN VEGETABLES",]
   return (
     <>
       <h1>Healthy Food</h1>
-      <ul class="list-group">
-        {foodItems.map((item) => (<li class="list-group-item">{item}</li>))}
+      <ul className="list-group">
+        {foodItems.map((item) => (<li className="list-group-item">{item}</li>))}
       </ul>
     </>
   );
