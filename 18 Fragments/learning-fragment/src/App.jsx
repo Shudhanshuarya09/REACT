@@ -22,21 +22,47 @@
 
 //same code written uper will be write in using short syntax of FRAGMENT and MAP METHOD concept
 
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import "./App.css";
+
+// function App() {
+
+//   let foodItems = ["DAL","PULSES","MEAT","EGG","CHICKEN","FISH","SPINACH"];
+
+  
+
+
+//   return (
+//     <>
+//       <h1>Healthy Food</h1>  
+//       <ul className="list-group">
+//         {foodItems.map((product) => (<li className="list-group-item">{product}</li>))}
+//       </ul>
+//     </>
+//   );
+// }
+
+// export default App;
+
+
+//same upper code written here describing the concept of if-else condition , Logical operator , terniary operator
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 function App() {
 
-  let foodItems = ["CHICKEN","EGG","FISH","BUTTER","SPINACH","PULSES","PANEER","GREEN VEGETABLES","CEREALS"]
+  let foodItems = [];
 
-  if(food.Items === 0){
+  if (foodItems.length === 0) {
   return <h3>I am still Hungry.</h3>;
   }
 
-  
+
   return (
     <>
       <h1>Healthy Food</h1>
+      { foodItems.length === 0 ? <h3>I am still Hungry</h3> : null};  
       <ul className="list-group">
         {foodItems.map((product) => (<li className="list-group-item">{product}</li>))}
       </ul>
@@ -45,3 +71,4 @@ function App() {
 }
 
 export default App;
+
