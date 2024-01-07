@@ -27,7 +27,7 @@ import "./App.css";
 
 function App() {
 
-  let foodItems = ["CHICKEN","EGG","FISH","BUTTER","SPINACH","PULSES","PANEER","GREEN VEGETABLES",]
+  let foodItems = ["CHICKEN","EGG","FISH","BUTTER","SPINACH","PULSES","PANEER","GREEN VEGETABLES","CEREALS"]
   return (
     <>
       <h1>Healthy Food</h1>
