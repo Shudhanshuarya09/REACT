@@ -52,17 +52,20 @@ import "./App.css";
 
 function App() {
 
-  let foodItems = [];
-
-  if (foodItems.length === 0) {
-  return <h3>I am still Hungry.</h3>;
-  }
+  let foodItems = [         ];
+  //  IF-ELSE Condition 
+  // if (foodItems.length === 0) {
+  // return <h3>I am still Hungry.</h3>;
+  // }
+  let emptMessage = foodItems.length === 0 ? <h3>I am still Hungry</h3> : null;
 
 
   return (
     <>
       <h1>Healthy Food</h1>
-      { foodItems.length === 0 ? <h3>I am still Hungry</h3> : null};  
+      {/* Terneary-opeartor */}
+       {/* { foodItems.length === 0 ? <h3>I am still Hungry</h3> : null};    */}
+       {emptMessage}
       <ul className="list-group">
         {foodItems.map((product) => (<li className="list-group-item">{product}</li>))}
       </ul>
