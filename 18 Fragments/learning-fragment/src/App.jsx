@@ -28,6 +28,12 @@ import "./App.css";
 function App() {
 
   let foodItems = ["CHICKEN","EGG","FISH","BUTTER","SPINACH","PULSES","PANEER","GREEN VEGETABLES","CEREALS"]
+
+  if(food.Items === 0){
+  return <h3>I am still Hungry.</h3>;
+  }
+
+  
   return (
     <>
       <h1>Healthy Food</h1>
