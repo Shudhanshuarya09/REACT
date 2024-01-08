@@ -62,7 +62,7 @@ function App() {
 
   return (
     <>
-      <h1>HEALTHY FOOD</h1>
+      <h1>Healthy Food</h1>
       {/* Terneary-opeartor */}
        {/* { foodItems.length === 0 ? <h3>I am still Hungry</h3> : null};    */}
        {emptMessage}
