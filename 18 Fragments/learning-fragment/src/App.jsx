@@ -52,12 +52,12 @@ import "./App.css";
 
 function App() {
 
-  let foodItems = [         ];
+  let foodItems = [   "DAL","","","","","","","",""      ];
   //  IF-ELSE Condition 
   // if (foodItems.length === 0) {
   // return <h3>I am still Hungry.</h3>;
   // }
-  let emptMessage = foodItems.length === 0 ? <h3>I am still Hungry</h3> : null;
+  // let emptMessage = foodItems.length === 0 ? <h3>I am still Hungry</h3> : null;
 
 
   return (
@@ -65,7 +65,9 @@ function App() {
       <h1>Healthy Food</h1>
       {/* Terneary-opeartor */}
        {/* { foodItems.length === 0 ? <h3>I am still Hungry</h3> : null};    */}
-       {emptMessage}
+       {/* Logical operator */}
+       {foodItems.length === 0 && <h3>I am still Hungry</h3>}
+       {/* {emptMessage} */}
       <ul className="list-group">
         {foodItems.map((product) => (<li className="list-group-item">{product}</li>))}
       </ul>
