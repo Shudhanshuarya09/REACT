@@ -1,8 +1,9 @@
  const FoodItems = () => {
 
+let foodItems = ["DAL","PULSES","MEAT","EGG","CHICKEN","FISH","SPINACH"];
   return (
     <ul className="list-group">
-        {FoodItems.map((product) => (<li className="list-group-item">{product}</li>))}
+        {foodItems.map((product) => (<li className="list-group-item">{product}</li>))}
        </ul>
   );
 

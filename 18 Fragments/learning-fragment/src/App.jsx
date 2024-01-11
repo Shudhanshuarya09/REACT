@@ -47,33 +47,66 @@
 
 //same upper code written here describing the concept of if-else condition , Logical operator , terniary operator
 
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import "./App.css";
+
+// function App() {
+
+//   let foodItems = [   "DAL","","","","","","","",""      ];
+//   //  IF-ELSE Condition 
+//   // if (foodItems.length === 0) {
+//   // return <h3>I am still Hungry.</h3>;
+//   // }
+//   // let emptMessage = foodItems.length === 0 ? <h3>I am still Hungry</h3> : null;
+
+
+//   return (
+//     <>
+//       <h1>Healthy Food</h1>
+//       {/* Terneary-opeartor */}
+//        {/* { foodItems.length === 0 ? <h3>I am still Hungry</h3> : null};    */}
+//        {/* Logical operator */}
+//        {foodItems.length === 0 && <h3>I am still Hungry</h3>}
+//        {/* {emptMessage} */}
+//       <ul className="list-group">
+//         {foodItems.map((product) => (<li className="list-group-item">{product}</li>))}
+//       </ul>
+//     </>
+//   );
+// }
+
+// export default App;
+
+
+
+//  Passing Data by Props
+
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
+ import "./App.css";
+ import FoodItems from "./Component/FoodItem";
 
-function App() {
+ function App() {
 
-  let foodItems = [   "DAL","","","","","","","",""      ];
-  //  IF-ELSE Condition 
-  // if (foodItems.length === 0) {
-  // return <h3>I am still Hungry.</h3>;
-  // }
-  // let emptMessage = foodItems.length === 0 ? <h3>I am still Hungry</h3> : null;
+  //  let foodItems = [   "DAL","","","","","","","",""      ];
+   //  IF-ELSE Condition 
+   // if (foodItems.length === 0) {
+   // return <h3>I am still Hungry.</h3>;
+   // }
+   // let emptMessage = foodItems.length === 0 ? <h3>I am still Hungry</h3> : null;
 
 
-  return (
-    <>
-      <h1>Healthy Food</h1>
-      {/* Terneary-opeartor */}
-       {/* { foodItems.length === 0 ? <h3>I am still Hungry</h3> : null};    */}
-       {/* Logical operator */}
-       {foodItems.length === 0 && <h3>I am still Hungry</h3>}
-       {/* {emptMessage} */}
-      <ul className="list-group">
-        {foodItems.map((product) => (<li className="list-group-item">{product}</li>))}
-      </ul>
-    </>
-  );
-}
+   return (
+     <>
+       <h1>Healthy Food</h1>
+       
+        { foodItems.length === 0 ? <h3>I am still Hungry</h3> : null};   
+        
+        {foodItems.length === 0 && <h3>I am still Hungry</h3>}
+        
+       <FoodItems></FoodItems>
+     </>
+   );
+ }
 
-export default App;
+ export default App;
 
