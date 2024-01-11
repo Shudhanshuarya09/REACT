@@ -87,7 +87,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
  function App() {
 
-  //  let foodItems = [   "DAL","","","","","","","",""      ];
+   let foodItems = [   "DAL","","","","","","","",""      ];
    //  IF-ELSE Condition 
    // if (foodItems.length === 0) {
    // return <h3>I am still Hungry.</h3>;
