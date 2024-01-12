@@ -1,7 +1,10 @@
 function TodoItem1(){
+
+  // let TodoItem = {"Dal",""}; 
+
 return(
 <div class="container ">
-<div class="row kg-row">
+<div class="row kg-row"> 
   <div class="col-6">
     Buy Milk
   </div>
@@ -9,7 +12,7 @@ return(
     5/12/2023
   </div>
   <div class="col-2">
-  <button type="button" class="btn btn-danger kg-button" >Delete</button>
+  <button type="button" class="btn btn-danger kg-button" >Change</button>
   </div>
 </div>
 </div>
