@@ -12,7 +12,7 @@ return(
     5/12/2023
   </div>
   <div class="col-2">
-  <button type="button" class="btn btn-danger kg-button" >Change</button>
+  <button type="button" class="btn btn-danger kg-button" >Delete</button>
   </div>
 </div>
 </div>
