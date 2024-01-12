@@ -77,8 +77,7 @@
 
 // export default App;
 
-
-
+ 
 //  Passing Data by Props
 
 import "bootstrap/dist/css/bootstrap.min.css";
