@@ -20,7 +20,7 @@
 
 // export default App;
 
-//same code written uper will be write in using short syntax of FRAGMENT and MAP METHOD concept
+// *********same code written uper will be write in using short syntax of FRAGMENT and MAP METHOD concept
 
 // import "bootstrap/dist/css/bootstrap.min.css";
 // import "./App.css";
@@ -45,7 +45,7 @@
 // export default App;
 
 
-//same upper code written here describing the concept of if-else condition , Logical operator , terniary operator
+// *********same upper code written here describing the concept of if-else condition , Logical operator , terniary operator
 
 // import "bootstrap/dist/css/bootstrap.min.css";
 // import "./App.css";
@@ -78,7 +78,7 @@
 // export default App;
 
  
-//  Passing Data by Props
+//  *********Passing Data by Props
 
 import "bootstrap/dist/css/bootstrap.min.css";
  import "./App.css";
