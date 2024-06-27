@@ -82,11 +82,20 @@
 
 import "bootstrap/dist/css/bootstrap.min.css";
  import "./App.css";
- import FoodItems from "./Component/FoodItem";
+ import FoodItems from "./Component/FoodItems";
+import ErrorMessage from "./Component/ErrorMessage";
 
  function App() {
 
-   let foodItems = [   "DAL","","","","","","","",""      ];
+     let foodItems = [
+    "DAL",
+    "PULSES",
+    "MEAT",
+    "EGG",
+    "CHICKEN",
+    "FISH",
+    "SPINACH",
+  ];
    //  IF-ELSE Condition 
    // if (foodItems.length === 0) {
    // return <h3>I am still Hungry.</h3>;
@@ -99,7 +108,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
        <h1>Healthy Food</h1>
        
         
-        
+        <ErrorMessage></ErrorMessage>
        <FoodItems></FoodItems>
      </>
    );
