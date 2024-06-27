@@ -98,9 +98,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
      <>
        <h1>Healthy Food</h1>
        
-        { foodItems.length === 0 ? <h3>I am still Hungry</h3> : null};   
         
-        {foodItems.length === 0 && <h3>I am still Hungry</h3>}
         
        <FoodItems></FoodItems>
      </>
