@@ -10,8 +10,8 @@ const FoodItems = () => {
   // ];
   return (
     <ul className="list-group">
-      {foodItems.map((product) => (
-        <li className="list-group-item">{product}</li>
+      {foodItems.map((item) => (
+        <li key={item} className="list-group-item">{item}</li>
       ))}
     </ul>
   );

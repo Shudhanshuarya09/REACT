@@ -29,12 +29,9 @@
 
 //   let foodItems = ["DAL","PULSES","MEAT","EGG","CHICKEN","FISH","SPINACH"];
 
-  
-
-
 //   return (
 //     <>
-//       <h1>Healthy Food</h1>  
+//       <h1>Healthy Food</h1>
 //       <ul className="list-group">
 //         {foodItems.map((product) => (<li className="list-group-item">{product}</li>))}
 //       </ul>
@@ -44,7 +41,6 @@
 
 // export default App;
 
-
 // *********same upper code written here describing the concept of if-else condition , Logical operator , terniary operator
 
 // import "bootstrap/dist/css/bootstrap.min.css";
@@ -53,12 +49,11 @@
 // function App() {
 
 //   let foodItems = [   "DAL","","","","","","","",""      ];
-//   //  IF-ELSE Condition 
+//   //  IF-ELSE Condition
 //   // if (foodItems.length === 0) {
 //   // return <h3>I am still Hungry.</h3>;
 //   // }
 //   // let emptMessage = foodItems.length === 0 ? <h3>I am still Hungry</h3> : null;
-
 
 //   return (
 //     <>
@@ -77,42 +72,37 @@
 
 // export default App;
 
- 
 //  *********Passing Data by Props
 
 import "bootstrap/dist/css/bootstrap.min.css";
- import "./App.css";
- import FoodItems from "./Component/FoodItems";
+import "./App.css";
+import FoodItems from "./Component/FoodItems";
 import ErrorMessage from "./Component/ErrorMessage";
 
- function App() {
-
-     let foodItems = [
+function App() {
+  let foodItems = [
     "DAL",
     "PULSES",
     "MEAT",
     "EGG",
     "CHICKEN",
     "FISH",
-    "SPINACH",
+    "SPINACH"
   ];
-   //  IF-ELSE Condition 
-   // if (foodItems.length === 0) {
-   // return <h3>I am still Hungry.</h3>;
-   // }
-   // let emptMessage = foodItems.length === 0 ? <h3>I am still Hungry</h3> : null;
+  //  IF-ELSE Condition
+  // if (foodItems.length === 0) {
+  // return <h3>I am still Hungry.</h3>;
+  // }
+  // let emptMessage = foodItems.length === 0 ? <h3>I am still Hungry</h3> : null;
 
+  return (
+    <>
+      <h1>Healthy Food</h1>
 
-   return (
-     <>
-       <h1>Healthy Food</h1>
-       
-        
-        <ErrorMessage></ErrorMessage>
-       <FoodItems></FoodItems>
-     </>
-   );
- }
+      <ErrorMessage></ErrorMessage>
+      <FoodItems></FoodItems>
+    </>
+  );
+}
 
- export default App;
-
+export default App;

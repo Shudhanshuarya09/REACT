@@ -10,9 +10,9 @@ const ErrorMessage = () => {
   //   "SPINACH",
   // ];
 
-  return <>{ foodItems.length === 0 ? <h3>I am still Hungry</h3> : null};   
+  return <>{ foodItems.length === 0 && <h3>I am still Hungry.</h3> }</>;   
         
-  //{foodItems.length === 0 && <h3>I am still Hungry</h3>}</>
+  // {foodItems.length === 0 && <h3>I am still Hungry</h3>}</>
 }
 
 export default ErrorMessage;
