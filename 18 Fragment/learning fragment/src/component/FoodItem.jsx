@@ -2,9 +2,7 @@ const FoodItems = () => {
   return (
     <ul className="list-group">
       {FoodItems.map((item) => (
-        <li key={item} className="list-group-item">
-          {item}
-        </li>
+        <Item key={item}fooditem={Item}></Item>
       ))}
     </ul>
   );
