@@ -1,7 +1,7 @@
-const FoodItems = () => {
+const FoodItems = ({items}) => {
   return (
     <ul className="list-group">
-      {FoodItems.map((item) => (
+      {items.map((item) => (
         <Item key={item}fooditem={Item}></Item>
       ))}
     </ul>

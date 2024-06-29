@@ -9,9 +9,9 @@ let foodItems = ["Dal", "Rice", "Spinach", "Fruits", "Vegetable"];
   return (
     <>
     <h1>Healthy Food</h1>
-    <ErrorMessage></ErrorMessage>
-    <FoodItems></FoodItems>
-    </>
+    <ErrorMessage items = {foodItems}></ErrorMessage>
+    <FoodItems items = {foodItems}></FoodItems>
+    </>   
   );
 }
 
