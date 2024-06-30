@@ -1,6 +1,5 @@
 function TodoItem( {todoName, todoDate}) {          //passed as a argument
-  // let todoName = "Buy Milk";
-  // let todoDate = "3/8/23";
+  
   return (
     <div class="container ">
       <div class="row kg-row">
