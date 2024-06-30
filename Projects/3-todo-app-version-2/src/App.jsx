@@ -5,24 +5,28 @@ import AppName from "./Components/AppName";
 import "./App.css";
 import TodoItem from "./Components/TodoItem";
 
-
-
-
-
 function App() {
+
+  const todoItems = [{
+    name : "Buy Milk",
+    dueDate : 30/6/24,
+  },
+  {
+    name : "Go to SLIET",
+    dueDate : 30/6/24,
+  }
+];
   return (
-    <center class="todo container" >
+    <center class="todo container">
       <AppName />
-      
-      <div className="items-container">
       <AddTodo />
-      <TodoItem todoDate="4/10/24" todoName="Pulses"></TodoItem>
-      {/* <TodoItem1 /> */}
-      <TodoItem todoDate="4/10/24" todoName="Go to SLIET"></TodoItem>
-      {/* <TodoItem2 /> */}
-      <TodoItem todoDate="4/10/24" todoName="Go to Gym"></TodoItem>
+      <div className="items-container">
+        <TodoItem todoDate="4/10/24" todoName="Pulses"></TodoItem>
+        {/* <TodoItem1 /> */}
+        <TodoItem todoDate="4/10/24" todoName="Go to SLIET"></TodoItem>
+        {/* <TodoItem2 /> */}
+        <TodoItem todoDate="4/10/24" todoName="Go to Gym"></TodoItem>
       </div>
-     
     </center>
   );
 }
