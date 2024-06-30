@@ -1,4 +1,4 @@
-function AppName(){
-  return <h1 className="heading">Todo  App</h1>;
+function AppName() {
+  return <h1 classNameName="heading">Todo App</h1>;
 }
 export default AppName;
