@@ -7,11 +7,15 @@ function App() {
   const todoItems = [
     {
       name: "Buy Milk",
-      dueDate: 30 / 6 / 24,
+      dueDate: 1/3/23,
     },
     {
       name: "Go to SLIET",
-      dueDate: 30 / 6 / 24,
+      dueDate: 30/6/24,
+    },
+    {
+      name: "like this video",
+      dueDate: "right now",
     },
   ];
   return (
