@@ -1,17 +1,17 @@
 import AddTodo from "./Components/AddTodo";
 import AppName from "./Components/AppName";
-import "./App.css";
 import TodoItems from "./Components/TodoItems";
+import "./App.css";
 
 function App() {
   const todoItems = [
     {
       name: "Buy Milk",
-      dueDate: 1/3/23,
+      dueDate: "1/3/23",
     },
     {
       name: "Go to SLIET",
-      dueDate: 30/6/24,
+      dueDate: "30/6/24",
     },
     {
       name: "like this video",
