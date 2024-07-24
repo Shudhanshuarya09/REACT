@@ -14,7 +14,7 @@ function App() {
       dueDate: "30/6/24",
     },
     {
-      name: "like this video",
+      name: "unlike this video",
       dueDate: "right now",
     },
   ];
