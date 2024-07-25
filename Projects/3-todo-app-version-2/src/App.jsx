@@ -10,7 +10,7 @@ function App() {
       dueDate: "1/3/23",
     },
     {
-      name: "Go to SLIET",
+      name: "Go to College",
       dueDate: "30/6/24",
     },
     {
