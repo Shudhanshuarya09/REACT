@@ -7,11 +7,17 @@ import Container from "./component/Container";
 function App() {
   let foodItems = ["Dal", "Rice", "Spinach", "Fruits", "Vegetable"];
   return (
+     <> // fragments use beacuse it allow to write two container in app.jsx
     <Container>
       <h1 className="food-heading">Healthy Food</h1>
       <ErrorMessage items={foodItems}></ErrorMessage>
       <FoodItem items={foodItems}></FoodItem>
     </Container>
+
+    <Container>
+      <p>Above is the list of the healthy foods for the godd health and well being</p>
+    </Container>
+  </>
   );
 }
 

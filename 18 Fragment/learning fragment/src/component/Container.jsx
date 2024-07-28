@@ -1,6 +1,8 @@
-const Container = () => {
+import styles from "./Container.module.css";
+
+const Container = (props) => {
   return (
-    <div>Container</div>
+    <div className={styles.Container}>{props.children}</div>
   )
 };
 
