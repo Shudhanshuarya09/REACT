@@ -1,11 +1,10 @@
 import styles from "./Item.module.css";
-const Item = (props) => {
-
+const Item = ({ foodItem }) => {
   //let { foodItem} = props;           concept of the array de-structuring
- // const Item = (foodItem) => {       concept next level de-structuring
+  // const Item = (foodItem) => {       concept next level de-structuring
   return (
-    <li  className={' ${stylesKgItem} list-group-item'}>
-      <span className="Kg-span">{foodItem}</span>
+    <li className={' ${styles["Kg-Item"]} list-group-item'}>
+      <span className={styles["Kg-span"]}>{foodItem}</span>
     </li>
   );
 };
