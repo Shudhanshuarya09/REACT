@@ -11,7 +11,7 @@ function App() {
 
   // let textToShow = textStateArr[0];             
   // let setTextState = textStateArr[1];
-  let { textToShow, setTextState } = useState("Food Item Entered by user");              //De-structuring
+  let [ textToShow, setTextState ] = useState("Food Item Entered by user");        //De-structuring
   console.log(`Current value of textState:${textToShow}`);
 
   const handleOnChange = (event) => {
